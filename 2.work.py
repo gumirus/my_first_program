@@ -50,3 +50,18 @@ b = int(input('Введите второе число: '))
 '''
 a, b = map(int, input('Введите числа через пробел: ').split())
 print(a * b)
+
+#boolean Логический тип данных
+a = True
+b = False
+
+# = присваивание а = 5
+# == сравнение а == 5, равно ли а числу 5 или нет
+a = 10
+b = 15
+print(a == b) #False
+print(a > b) #False
+print(a < b) #True
+print(a >= b) #False
+print(a <= b) #True
+print(a != b) #!= неравно
