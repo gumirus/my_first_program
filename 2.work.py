@@ -65,3 +65,62 @@ print(a < b) #True
 print(a >= b) #False
 print(a <= b) #True
 print(a != b) #!= неравно
+
+print(a == 5) #True
+if a == 5: #Если а == 5, то тогда написать 'а == 5' print('a == 5')
+    print(a == 20)#False
+if a == 20:
+    print('a == 20')
+
+#if если
+#elif иначе если
+#else иначе
+
+а = 10
+if а == 5: #Если а равно числу 5, ко когда print('a == 5') print('a == 5')
+    print('a == 5')
+else: #иначе print('a != 5')
+    print('a != 5')
+    print('Блок else')
+
+a = 5
+if a == 10: # Если а равно 10, вывести print('а равно 10')
+    print('а равно 10')
+elif a == 5: #иначе если а равно 5, вывести 'а равно 5"
+    print('а равно 5')
+else:#если оба условия не верны, то тогда написать...
+    print('a не равно 5 или 10')
+
+num1, num2 = map(int, input('Введите 2 числа через пробел:').split())
+print('''
++ Сложение
+- Вычитание
+/ Деление
+* Умножение
+''')
+
+choice = input('Выберите действие: ')
+if choice == '+':
+   print(f'{num1} + {num2} = {num1 + num2}')
+elif choice == '-':
+   print(f'{num1} - {num2} = {num1 - num2}')
+elif choice == '*':
+   print(f' {num2} = {num1 * num2} *2')
+elif choice == '/':
+    if num2 == 0:
+       print( 'Hа ноль делить нельзя!')
+    else:
+       print(f' {num1} / {num2} = {num1 / num2}')
+
+а = 9
+print(a ** 0.5)
+
+import math #импорт библиотеки
+
+sqrt_a = math.sqrt(a)
+print(sqrt_a)
+
+а = 3
+print(a ** 5)
+pow_a = math.pow(a, 5)
+print(pow_a) 
