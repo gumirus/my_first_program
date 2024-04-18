@@ -18,13 +18,13 @@ print(5 > 3 and 5 != 10) # а > 3 и 5 не равно 10
 # True  True
 # True
 
-print (1 != 5 or 5 == 5) 
+print (1 != 5 or 5 == 5) #  1 не равно 5 или 5 равно 5
 # True  True
 
 
 print(5 == 3 or 5 == 5)
 # False True
-# Является ли это вырожение ложным?
+# Является ли это выражение ложным?
 print(not 1 == 1) #False
 
 print(not 5 == 1) #True
