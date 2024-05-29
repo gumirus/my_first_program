@@ -31,4 +31,3 @@ while game < games + 1:
     print("\n")
 
 print(f"Ваш средний рекорд: {mean(scores)}")
-
