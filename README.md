@@ -13,3 +13,5 @@
 ***
 # - [Дз 6. Циклы While и For](https://docs.google.com/document/d/17bBBfSB-dG6cE0pTI_SV-dO-qMu2dz_IuDVzeijkDrg/edit) - [решение](https://github.com/gumirus/my_first_program/blob/main/homework_6.py)
 ***
+# - [последний урок](https://github.com/gumirus/my_first_program/blob/main/последний.py)
+***
